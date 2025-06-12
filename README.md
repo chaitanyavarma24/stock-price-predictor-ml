@@ -33,30 +33,7 @@ This project uses historical stock price data to forecast future prices using ma
 
 ---
 
-## 📁 Project Structure
 
-```
-
-stock-price-predictor-ml/
-│
-├── data/                     # CSV files for historical and predicted stock prices
-│   ├── historical\_stock\_data.csv
-│   └── predicted\_stock\_data.csv
-│
-├── notebooks/                # Jupyter notebooks for EDA + modeling
-│   └── stock\_prediction.ipynb
-│
-├── dashboard/                # Power BI Dashboard file
-│   └── stock\_dashboard.pbix
-│
-├── streamlit\_app/            # Streamlit frontend (optional)
-│   └── app.py
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
-
-````
 
 ---
 
@@ -101,23 +78,14 @@ jupyter notebook notebooks/stock_prediction.ipynb
 
 ---
 
-## 🌐 (Optional) Streamlit Web App
+## 🌐 Streamlit Web App
 
 ```bash
 cd streamlit_app/
 streamlit run app.py
 ```
 
----
 
-## 💡 Future Improvements
-
-* Add more advanced ML models (ARIMA, LSTM, Prophet)
-* Multi-stock prediction support
-* Add indicators like RSI, MACD, Moving Averages
-* Deploy as a cloud-hosted dashboard
-
----
 
 ## 📜 License
 
@@ -131,14 +99,3 @@ If you liked this project, feel free to ⭐ the repo, give feedback, or connect:
 
 * LinkedIn: 
 
-```
-
----
-
-## ✅ To Do Now:
-- Replace placeholder links (image, LinkedIn, GitHub username)
-- Add your project preview screenshot later
-- Save this as `README.md` in your repo root
-
-Want me to generate a `requirements.txt` next or help you write the actual Python code step by step?
-```
